@@ -82,3 +82,11 @@ nav>a.contato:hover{
     background-color: var(--cor4);
     color: white;
 }
+section#fundo{
+    padding-top: 28vh;
+    padding-bottom: 30vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../imagens/Logo-final.png");
+    background-attachment: fixed;
+}
