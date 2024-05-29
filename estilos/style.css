@@ -20,10 +20,17 @@ body{
     font-family: var(--fonte_padrao);
 }
 header{
+    padding-left: 75%;
     text-align: center;
-    padding-top: 30px;
-    min-height: 90px;
+    padding-top: 4px;
+    padding-right: 1.5%;
     background-color: var(--cor3);
+
+}
+header>img{
+    padding-left: 10px;
+    padding-bottom: 2px;
+    padding-top: 2px;
 }
 header>h1{
     font-family: var(--fonte_destaque);
@@ -45,58 +52,33 @@ header>p{
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.26);
 }
 nav{
-    background-color: var(--cor5);
-    padding: 10px;
+    background-color: white;
+    padding: 30px;
+    padding-left: 67.8%;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.233);
 }
 nav>a{
-    color: var(--cor1);
+    font-size: 1.1em;
+    color: black;
     padding: 10px;
     border-radius: 5px;
     font-weight: bold;
     text-decoration: none;
     transition-duration: .5s;    
 }
-nav>a:hover{
+nav>a.contato{
     background-color: var(--cor3);
-    color: var(--cor5);
+    padding: 15px;
+    padding-left: 35px;
+    margin-left: 20px;
+    padding-right: 35px;
+    border-radius: 25px;
+    color: white;
 }
-main{
-    background-color: white;
-    margin: auto;
-    margin-bottom: 30px;
-    min-width: 300px;
-    max-width: 1000px;
-    border-radius: 0px 0px 10px 10px;
-    padding: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.432);
+nav>a:hover{
+    color: var(--cor3);
 }
-main h1{
-    font-family: var(--fonte_destaque2);
-    color: var(--cor5);
-    font-weight: normal;
-    font-size: 1.8em;
-}
-main h2{
-    font-family: var(--fonte_destaque2);
-    color: var(--cor4);
-    font-size: 1.3em;
-    text-decoration: ;
-    text-indent: 8px;
-    font-weight: normal;
-}
-main p{
-    margin: 15px 0px;
-    text-align: justify;
-    text-indent: 30px;
-    line-height: 2em;
-}
-main a{
-    text-decoration: none;
-    font-weight: bold;
-    color: var(--cor5);
-}
-main a:hover{
-    text-decoration: underline;
-    color: var(--cor4);
+nav>a.contato:hover{
+    background-color: var(--cor4);
+    color: white;
 }
