@@ -22,13 +22,13 @@ body{
 header{
     text-align: center;
     padding-top: 30px;
-    min-height: 120px;
+    min-height: 90px;
     background-color: var(--cor3);
 }
 header>h1{
     font-family: var(--fonte_destaque);
     color: white;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 2.5em;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.26);
     font-weight: normal;
@@ -41,7 +41,7 @@ header>p{
     margin: auto;
     padding-right: 10px;
     padding-left: 10px;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.26);
 }
 nav{
@@ -81,6 +81,22 @@ main h2{
     font-family: var(--fonte_destaque2);
     color: var(--cor4);
     font-size: 1.3em;
+    text-decoration: ;
     text-indent: 8px;
-    
+    font-weight: normal;
+}
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+}
+main a{
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor5);
+}
+main a:hover{
+    text-decoration: underline;
+    color: var(--cor4);
 }
