@@ -17,12 +17,18 @@
 }
 body{
     background-color: var(--cor0);
+    background-image: url("../imagens/fundo-do-body.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-attachment: fixed;
+    background-size: cover;
     font-family: var(--fonte_padrao);
 }
 header{
     padding-left: 75%;
     text-align: center;
-    padding-top: 4px;
+    padding-top: 5px;
+    padding-bottom: 3px;
     padding-right: 1.5%;
     background-color: var(--cor3);
 
