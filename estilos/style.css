@@ -27,7 +27,7 @@ header{
     background-color: var(--cor3);
 
 }
-header>img{
+header>a{
     padding-left: 10px;
     padding-bottom: 2px;
     padding-top: 2px;
